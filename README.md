@@ -1,12 +1,52 @@
-# React + Vite
+ #Investment Calculator App 
+#Overview
+The Investment Calculator App is a React-based application designed to help users calculate and visualize the growth of their investments over time. It demonstrates core React concepts such as props, useState, import/export, and functions, making it an excellent learning tool for understanding React fundamentals.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#Features
+Input Fields: Users can enter:
 
-Currently, two official plugins are available:
+Initial Investment
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Annual Investment
 
-## Expanding the ESLint configuration
+Expected Return Rate
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Investment Duration
+
+Dynamic Results: The app calculates and displays:
+
+Yearly investment growth
+
+Total interest earned
+
+Total invested capital
+
+Interactive Table: A detailed breakdown of investment growth for each year.
+
+Formatted Output: Results are displayed in a user-friendly, currency-formatted table.
+
+#Key Concepts Demonstrated
+Props: Passing data between components.
+
+useState: Managing state for user inputs and calculated results.
+
+Import/Export: Organizing code into reusable modules.
+
+Functions: Calculating investment results and formatting data.
+
+Component Structure: Breaking the app into smaller, reusable components.
+
+#How to Use
+Enter your investment details in the input fields.
+
+View the calculated results in the interactive table.
+
+Adjust the inputs to see how changes affect your investment growth.
+
+#Technologies Used
+React: Frontend library for building the user interface.
+
+Tailwind CSS: Styling the app for a clean and modern look.
+
+JavaScript: Logic for calculations and data manipulation.
+
